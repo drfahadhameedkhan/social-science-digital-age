@@ -41,11 +41,11 @@
 
 This is the **official companion repository** for:
 
-> **Khan, F.H. (2026).** *Social Science in the Digital Age: Computation, Big Data, AI and the New Research Frontier.* [Publisher].
+> **Khan, F.H. (2026).** *Social Science in the Digital Age: Computation, Big Data, AI and the New Research Frontier.* [UnPublished].
 
 The book is a **comprehensive graduate-level textbook** spanning **26 chapters across 6 parts** and **6 appendices**, covering the full methodological toolkit of contemporary computational social science (from research design and ethics through machine learning, NLP, network analysis, geospatial methods and generative AI).
 
-This repository contains **every coding exercise, worked example, and dataset** from the book in executable, documented form. All notebooks run in **Google Colab** — no local installation required.
+This repository contains **every coding exercise, worked example, and dataset** from the book in executable, documented form. All notebooks run in **Google Colab** - no local installation required.
 
 ---
 
@@ -53,14 +53,14 @@ This repository contains **every coding exercise, worked example, and dataset** 
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════════╗
-║   PART ONE — FOUNDATIONS  (Chapters 1–4)                                  ║
+║   PART ONE - FOUNDATIONS  (Chapters 1-4)                                  ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  Ch 1  The New Social Scientist: Digital Turn & AI Literacy               ║
 ║  Ch 2  Research Design: Quantitative, Qualitative & Mixed Methods         ║
-║  Ch 3  Ethics in the Age of Data: Consent, Bias & GDPR                   ║
+║  Ch 3  Ethics in the Age of Data: Consent, Bias & GDPR                    ║
 ║  Ch 4  Setting Up Your Research Environment: Python, R, Git, OSF          ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
-║   PART TWO — DATA  (Chapters 5–9)                                         ║
+║   PART TWO - DATA  (Chapters 5-9)                                         ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  Ch 5  Survey Design: Online Panels, Mobile Surveys & Response Bias       ║
 ║  Ch 6  Digital Data Collection: APIs, Scraping & Trace Data               ║
@@ -68,15 +68,15 @@ This repository contains **every coding exercise, worked example, and dataset** 
 ║  Ch 8  Data Wrangling: Cleaning, Reshaping & Merging at Scale             ║
 ║  Ch 9  Data Visualisation: Charts, Maps & Communicating Evidence          ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
-║   PART THREE — STATISTICAL METHODS  (Chapters 10–14)                      ║
+║   PART THREE - STATISTICAL METHODS  (Chapters 10-14)                      ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  Ch 10  Descriptive Statistics & Exploratory Data Analysis                ║
 ║  Ch 11  Regression Analysis: OLS, Logistic & Multilevel                   ║
 ║  Ch 12  Causal Inference: DiD, RD, IV & Propensity Scores                 ║
 ║  Ch 13  Meta-Analysis & Systematic Reviews: Synthesising Evidence         ║
-║  Ch 14  Bayesian Thinking for Social Scientists                            ║
+║  Ch 14  Bayesian Thinking for Social Scientists                           ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
-║   PART FOUR — COMPUTATIONAL METHODS  (Chapters 15–20)                     ║
+║   PART FOUR - COMPUTATIONAL METHODS  (Chapters 15-20)                     ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  Ch 15  Computational Social Science: Paradigms, Promises & Pitfalls      ║
 ║  Ch 16  Natural Language Processing: Sentiment, Topics & Discourse        ║
@@ -85,26 +85,26 @@ This repository contains **every coding exercise, worked example, and dataset** 
 ║  Ch 19  Large Language Models & Generative AI as Research Tools           ║
 ║  Ch 20  Geospatial Analysis & GIS: Mapping Inequality, Crime & Health     ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
-║   PART FIVE — DISCIPLINARY APPLICATIONS  (Chapters 21–24)                 ║
+║   PART FIVE - DISCIPLINARY APPLICATIONS  (Chapters 21-24)                 ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
-║  Ch 21  Political Science & Policy Analysis: Elections & Polarisation      ║
+║  Ch 21  Political Science & Policy Analysis: Elections & Polarisation     ║
 ║  Ch 22  Criminology & Public Safety: Predictive Policing & Fairness       ║
 ║  Ch 23  Health & Medical Sociology: Inequalities & Digital Health         ║
 ║  Ch 24  Economics & Labour: Inequality, Platform Work & Complexity        ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
-║   PART SIX — COMMUNICATION & OPEN SCIENCE  (Chapters 25–26)               ║
+║   PART SIX - COMMUNICATION & OPEN SCIENCE  (Chapters 25-26)               ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  Ch 25  Writing & Reporting: APA 7th, Journal Articles & Policy Briefs    ║
 ║  Ch 26  Open Science, Reproducibility & the Future of Social Research     ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
-║   APPENDICES  (A–F)                                                        ║
+║   APPENDICES  (A-F)                                                       ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
-║  A  Python Crash Course for Social Scientists                              ║
-║  B  R Crash Course for Social Scientists                                   ║
-║  C  Statistical Tables and Key Formulae                                    ║
-║  D  Curated Open Dataset Repository                                        ║
-║  E  AI and Computational Tool Directory                                    ║
-║  F  Comprehensive Glossary                                                 ║
+║  A  Python Crash Course for Social Scientists                             ║
+║  B  R Crash Course for Social Scientists                                  ║
+║  C  Statistical Tables and Key Formulae                                   ║
+║  D  Curated Open Dataset Repository                                       ║
+║  E  AI and Computational Tool Directory                                   ║
+║  F  Comprehensive Glossary                                                ║
 ╚═══════════════════════════════════════════════════════════════════════════╝
 ```
 
