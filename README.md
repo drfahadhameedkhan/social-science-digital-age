@@ -245,7 +245,7 @@ auditor = FairnessAuditor(
 # The impossibility: all three metrics cannot hold simultaneously
 report = auditor.full_audit_report()
 # Output shows: Black defendants FPR = 44.9% vs White = 23.5%
-# Yet calibration holds within each group — Chouldechova proven empirically
+# Yet calibration holds within each group - Chouldechova proven empirically
 chouldechova_impossibility_demo()
 ```
 
