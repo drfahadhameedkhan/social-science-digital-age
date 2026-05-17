@@ -122,7 +122,7 @@ This repository contains **every coding exercise, worked example, and dataset** 
 
 ---
 
-## ⚡ Quick Start — No Installation Needed
+## ⚡ Quick Start - No Installation Needed
 
 All coding exercises run in **Google Colab** (free, cloud-hosted Jupyter).
 
