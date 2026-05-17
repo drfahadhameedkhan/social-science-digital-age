@@ -118,7 +118,7 @@ This repository contains **every coding exercise, worked example, and dataset** 
 | 👩‍🏫 **Academic Researchers** | Practical computational extensions to existing social science projects |
 | 📊 **Policy Analysts & Government** | Data-driven decision tools and evidence synthesis frameworks |
 | 🌍 **Global South Scholars** | Methods calibrated to data-scarce, high-stakes, non-WEIRD research contexts |
-| 🔄 **Qualitative Researchers** | AI literacy, NLP support tools, and digital ethics — even without quantitative focus |
+| 🔄 **Qualitative Researchers** | AI literacy, NLP support tools, and digital ethics - even without quantitative focus |
 
 ---
 
