@@ -1,5 +1,5 @@
 # 📚 Social Science in the Digital Age
-## Computation, Big Data, AI, and the New Research Frontier
+## Computation, Big Data, AI and the New Research Frontier
 
 <div align="center">
 
