@@ -41,9 +41,9 @@
 
 This is the **official companion repository** for:
 
-> **Khan, F.H. (2025).** *Social Science in the Digital Age: Computation, Big Data, AI, and the New Research Frontier.* [Publisher].
+> **Khan, F.H. (2026).** *Social Science in the Digital Age: Computation, Big Data, AI and the New Research Frontier.* [Publisher].
 
-The book is a **comprehensive graduate-level textbook** spanning **26 chapters across 6 parts** and **6 appendices**, covering the full methodological toolkit of contemporary computational social science — from research design and ethics through machine learning, NLP, network analysis, geospatial methods, and generative AI.
+The book is a **comprehensive graduate-level textbook** spanning **26 chapters across 6 parts** and **6 appendices**, covering the full methodological toolkit of contemporary computational social science (from research design and ethics through machine learning, NLP, network analysis, geospatial methods and generative AI).
 
 This repository contains **every coding exercise, worked example, and dataset** from the book in executable, documented form. All notebooks run in **Google Colab** — no local installation required.
 
