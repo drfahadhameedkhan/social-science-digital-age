@@ -229,7 +229,7 @@ social-science-digital-age/
 
 ### Chapter 3 - Ethics: The COMPAS Case & Chouldechova Impossibility
 
-One of the book's most powerful pedagogical moments is the mathematical proof that **no algorithm can simultaneously satisfy calibration, FPR parity, and FNR parity when group base rates differ**:
+One of the book's most powerful pedagogical moments is the mathematical proof that **no algorithm can simultaneously satisfy calibration, FPR parity and FNR parity when group base rates differ**:
 
 ```python
 from code.ch03.ethics_audit import FairnessAuditor, chouldechova_impossibility_demo
