@@ -25,7 +25,7 @@
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
-║  "Data without theory is blind. Theory without data is empty.                ║
+║      "Data without theory is blind. Theory without data is empty.            ║
 ║   Computational social science is the discipline that refuses both."         ║
 ║                                                                              ║
 ║                    -- Fahad Hameed Khan (2026) --                            ║
