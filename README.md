@@ -53,7 +53,7 @@ This repository contains **every coding exercise, worked example, and dataset** 
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════════╗
-║   **PART ONE** - **FOUNDATIONS  (Chapters 1-4)**                          ║
+║   PART ONE - FOUNDATIONS  (Chapters 1-4)                                  ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  Ch 1  The New Social Scientist: Digital Turn & AI Literacy               ║
 ║  Ch 2  Research Design: Quantitative, Qualitative & Mixed Methods         ║
@@ -118,7 +118,7 @@ This repository contains **every coding exercise, worked example, and dataset** 
 | 👩‍🏫 **Academic Researchers** | Practical computational extensions to existing social science projects |
 | 📊 **Policy Analysts & Government** | Data-driven decision tools and evidence synthesis frameworks |
 | 🌍 **Global South Scholars** | Methods calibrated to data-scarce, high-stakes, non-WEIRD research contexts |
-| 🔄 **Qualitative Researchers** | AI literacy, NLP support tools, and digital ethics - even without quantitative focus |
+| 🔄 **Qualitative Researchers** | AI literacy, NLP support tools and digital ethics - even without quantitative focus |
 
 ---
 
@@ -227,7 +227,7 @@ social-science-digital-age/
 
 ## 🔬 Chapter Highlights & Code Samples
 
-### Chapter 3 — Ethics: The COMPAS Case & Chouldechova Impossibility
+### Chapter 3 - Ethics: The COMPAS Case & Chouldechova Impossibility
 
 One of the book's most powerful pedagogical moments is the mathematical proof that **no algorithm can simultaneously satisfy calibration, FPR parity, and FNR parity when group base rates differ**:
 
@@ -249,7 +249,7 @@ report = auditor.full_audit_report()
 chouldechova_impossibility_demo()
 ```
 
-### Chapter 12 — Causal Inference: Difference-in-Differences
+### Chapter 12 - Causal Inference: Difference-in-Differences
 
 Replicating Card & Krueger's minimum wage study — the analysis that overturned the dominant prediction that minimum wages reduce employment:
 
@@ -272,7 +272,7 @@ did.plot_parallel_trends(test_preperiod=True)
 did.plot_event_study()
 ```
 
-### Chapter 16 — NLP: From Word Counts to BERT
+### Chapter 16 - NLP: From Word Counts to BERT
 
 ```python
 from code.ch16.nlp_pipeline import NLPPipeline
@@ -298,7 +298,7 @@ classifier = pipeline.fine_tune_bert(
 )
 ```
 
-### Chapter 17 — Social Network Analysis
+### Chapter 17 - Social Network Analysis
 
 ```python
 from code.ch17.network_analysis import NetworkAnalyser
@@ -321,21 +321,21 @@ communities = G.detect_communities(method="louvain")
 G.degree_distribution(log_log=True)
 ```
 
-### Chapter 19 — LLMs as Research Tools: Four Principles
+### Chapter 19 - LLMs as Research Tools: Four Principles
 
 The book's framework for principled AI use (Chapter 19, Section 19.5):
 
 ```python
 from code.ch19.llm_tools import ResearchLLM, validate_llm_citations
 
-# Principle 1: Full transparency — log every API call
+# Principle 1: Full transparency - log every API call
 llm = ResearchLLM(
     model="claude-sonnet-4-6",
     log_all_calls=True,         # Required for research disclosure
     temperature=0.0             # Deterministic for reproducibility
 )
 
-# Principle 2: Verification — never trust LLM-generated citations
+# Principle 2: Verification - never trust LLM-generated citations
 abstract_screen_results = llm.screen_abstracts(
     abstracts=systematic_review_pool,
     inclusion_criteria=PRISMA_criteria
@@ -343,7 +343,7 @@ abstract_screen_results = llm.screen_abstracts(
 validated = validate_llm_citations(abstract_screen_results)
 # Flags any hallucinated DOIs or non-existent papers
 
-# Principle 3: Validation — calculate inter-rater reliability with humans
+# Principle 3: Validation - calculate inter-rater reliability with humans
 from code.ch19.llm_tools import InterRaterReliability
 irr = InterRaterReliability(llm_codes=llm_coding, human_codes=expert_coding)
 print(f"Cohen's κ = {irr.kappa():.3f}")   # Must report this in methods
@@ -400,13 +400,13 @@ print(f"Cohen's κ = {irr.kappa():.3f}")   # Must report this in methods
 ## 📚 Citation
 
 ```bibtex
-@book{khan2025social,
+@book{khan2026social,
   title     = {Social Science in the Digital Age: Computation, Big Data,
                AI, and the New Research Frontier},
   author    = {Khan, Fahad Hameed},
-  year      = {2025},
+  year      = {2026},
   publisher = {[Publisher Name]},
-  address   = {[City, Country]},
+  address   = {[Karachi, Pakistan]},
   isbn      = {[ISBN to be assigned]},
   url       = {https://github.com/fahadhameedkhan/social-science-digital-age},
   note      = {26 chapters, 6 parts, 6 appendices.
@@ -418,20 +418,20 @@ print(f"Cohen's κ = {irr.kappa():.3f}")   # Must report this in methods
 
 ## 🙏 Acknowledgements
 
-The author acknowledges the open-source communities behind Python, R, scikit-learn, NetworkX, HuggingFace Transformers, PyMC, and the broader computational social science community. The book engages critically and constructively with foundational scholarship including Lazer et al. (2009), Salganik (2018), Chouldechova (2017), Nissenbaum (2010), and the Open Science Collaboration (2015).
+The author acknowledges the open-source communities behind Python, R, scikit-learn, NetworkX, HuggingFace Transformers, PyMC and the broader computational social science community. The book engages critically and constructively with foundational scholarship including Lazer et al. (2009), Salganik (2018), Chouldechova (2017), Nissenbaum (2010) and the Open Science Collaboration (2015).
 
 ---
 
 ## 📜 License
 
 - **All code** in this repository: [MIT License](LICENSE)
-- **All written content, exercises, and figures**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to use with attribution
+- **All written content, exercises and figures**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to use with attribution
 
 ---
 
 <div align="center">
 
-**Fahad Hameed Khan, PhD** | Post-Doctoral Research Fellow | Rawalpindi, Pakistan
+**Fahad Hameed Khan, PhD** | Independant Researcher | Karachi, Pakistan
 
 *Research interests: Computational criminology · Geospatial ML · Transnational networks · Science of science · Counter-narcotics policy*
 
