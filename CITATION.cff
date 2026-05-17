@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the book using the metadata below."
+title: "Social Science in the Digital Age: Computation, Big Data, AI, and the New Research Frontier"
+authors:
+  - family-names: "Khan"
+    given-names: "Fahad Hameed"
+    orcid: "https://orcid.org/0009-0009-2087-0242"
+    email: "drfahadhameedkhan@gmail.com"
+type: book
+year: 2025
+license: CC-BY-4.0
+repository-code: "https://github.com/fahadhameedkhan/social-science-digital-age"
+keywords:
+  - computational social science
+  - research methods
+  - machine learning
+  - NLP
+  - causal inference
+  - social network analysis
+  - algorithmic fairness
+  - open science
+  - big data
+  - AI in research
+abstract: >
+  A comprehensive 26-chapter graduate-level textbook bridging traditional
+  social science methodology with computational and AI-powered research methods.
+  Companion repository with all coding exercises and datasets.
