@@ -53,7 +53,7 @@ This repository contains **every coding exercise, worked example, and dataset** 
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════════╗
-║   PART ONE - FOUNDATIONS  (Chapters 1-4)                                  ║
+║   **PART ONE** - **FOUNDATIONS  (Chapters 1-4)**                          ║
 ╠═══════════════════════════════════════════════════════════════════════════╣
 ║  Ch 1  The New Social Scientist: Digital Turn & AI Literacy               ║
 ║  Ch 2  Research Design: Quantitative, Qualitative & Mixed Methods         ║
