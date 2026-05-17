@@ -424,7 +424,7 @@ The author acknowledges the open-source communities behind Python, R, scikit-lea
 ## 📜 License
 
 - **All code** in this repository: [MIT License](LICENSE)
-- **All written content, exercises and figures**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — free to use with attribution
+- **All written content, exercises and figures**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) - **free to use with attribution**
 
 ---
 
