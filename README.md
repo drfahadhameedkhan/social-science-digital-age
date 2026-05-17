@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![Book](https://img.shields.io/badge/Status-Forthcoming%202025-FF6B35?style=for-the-badge&logo=bookstack&logoColor=white)]()
+[![Book](https://img.shields.io/badge/Status-Forthcoming%202026-FF6B35?style=for-the-badge&logo=bookstack&logoColor=white)]()
 [![Chapters](https://img.shields.io/badge/Chapters-26-8A2BE2?style=for-the-badge)]()
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![R](https://img.shields.io/badge/R-4.3%2B-276DC3?style=for-the-badge&logo=r&logoColor=white)](https://r-project.org)
