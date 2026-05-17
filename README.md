@@ -401,8 +401,7 @@ print(f"Cohen's κ = {irr.kappa():.3f}")   # Must report this in methods
 
 ```bibtex
 @book{khan2026social,
-  title     = {Social Science in the Digital Age: Computation, Big Data,
-               AI, and the New Research Frontier},
+  title     = {Social Science in the Digital Age: Computation, Big Data, AI and the New Research Frontier},          
   author    = {Khan, Fahad Hameed},
   year      = {2026},
   publisher = {[Publisher Name]},
