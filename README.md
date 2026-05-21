@@ -430,7 +430,7 @@ The author acknowledges the open-source communities behind Python, R, scikit-lea
 
 <div align="center">
 
-**Fahad Hameed Khan, PhD** | Independant Researcher | Karachi, Pakistan
+**Fahad Hameed Khan, PhD** | Independent Researcher | Karachi, Pakistan
 
 *Research interests: Computational criminology · Geospatial ML · Transnational networks · Science of science · Counter-narcotics policy*
 
