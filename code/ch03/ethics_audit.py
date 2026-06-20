@@ -21,9 +21,9 @@ from typing import Optional, List
 logger = logging.getLogger(__name__)
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 # THE CHOULDECHOVA IMPOSSIBILITY  (Chapter 3, Section 3.4.2; Chapter 22.3)
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 
 def chouldechova_impossibility_demo(base_rate_a: float = 0.45,
                                     base_rate_b: float = 0.25,
@@ -74,7 +74,7 @@ def chouldechova_impossibility_demo(base_rate_a: float = 0.45,
         "base_rate_group_B":  base_rate_b,
         "calibration_holds":  True,
         "fpr_ratio_A_to_B":   round(fpr_ratio, 3),
-        "fnr_parity_holds":   abs(fpr_ratio - 1.0) < 0.01,
+        "fnr_parity_holds":   False,  # BUG FIX: FNR parity CANNOT hold when calibration holds and base rates differ
         "impossibility_shown": abs(fpr_ratio - 1.0) > 0.01,
         "interpretation": (
             f"With base rates {base_rate_a} vs {base_rate_b}, "
@@ -90,16 +90,16 @@ def chouldechova_impossibility_demo(base_rate_a: float = 0.45,
     print(f"  Base rate — Group A : {base_rate_a}")
     print(f"  Base rate — Group B : {base_rate_b}")
     print(f"  Calibration holds   : {result['calibration_holds']}")
-    print(f"  FPR parity holds    : {result['fnr_parity_holds']}")
+    print(f"  FNR parity holds    : {result['fnr_parity_holds']}")
     print(f"  Impossibility shown : {result['impossibility_shown']}")
     print(f"\n  → {result['interpretation']}")
     print("═" * 65)
     return result
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 # ALGORITHMIC FAIRNESS AUDITOR  (Chapters 3 & 22)
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 
 class FairnessAuditor:
     """
@@ -267,9 +267,9 @@ class FairnessAuditor:
         print("═" * 65)
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 # CONTEXTUAL INTEGRITY CHECKER  (Chapter 3, Section 3.3)
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 
 class ContextualIntegrityChecker:
     """
@@ -371,9 +371,9 @@ class ContextualIntegrityChecker:
         }
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 # GDPR SPECIAL CATEGORY CHECKER  (Chapter 3, Section 3.6)
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 
 GDPR_SPECIAL_CATEGORIES = {
     "racial_ethnic_origin":    "Article 9(1)(a) — requires explicit consent or substantial public interest",
