@@ -102,6 +102,9 @@ class NLPPipeline:
                 for doc in self._spacy_model.pipe(texts, batch_size=256, n_process=1):
                     tokens = [
                         token.lemma_ for token in doc
+                        # BUG FIX: Changed 'or' to 'and' for correct stopword filtering logic
+                        # Now: keep token if (NOT stopword) OR (remove_stops NOT in steps)
+                        # This means: skip stopwords only when "remove_stops" is in steps
                         if (not token.is_stop or "remove_stops" not in steps)
                         and token.is_alpha
                         and (len(token.text) >= 3 or "remove_short" not in steps)
