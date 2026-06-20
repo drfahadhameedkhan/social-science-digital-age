@@ -22,10 +22,10 @@ from typing import Optional
 logger = logging.getLogger(__name__)
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 # DIFFERENCE-IN-DIFFERENCES  (Chapter 12, Section 12.1)
 # Card & Krueger (1994) minimum wage example
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 
 class DifferenceInDifferences:
     """
@@ -111,7 +111,7 @@ class DifferenceInDifferences:
         result = {
             "ATT":          round(att, 4),
             "SE":           round(se, 4),
-            "t_stat":       round(att/se, 3),
+            "t_stat":       round(att/se, 3) if se > 0 else 0,  # BUG FIX: Check for zero SE before division
             "p_value":      round(pval, 4),
             "CI_95":        (round(ci_lo, 4), round(ci_hi, 4)),
             "significant":  pval < 0.05,
@@ -203,9 +203,9 @@ class DifferenceInDifferences:
         return fig
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 # REGRESSION DISCONTINUITY  (Chapter 12, Section 12.2)
-# ─────────────────────────────────────────────────────────────────────────────
+# ────────────────────────────────────────────────────────────────────────────
 
 class RegressionDiscontinuity:
     """
